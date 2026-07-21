@@ -1,0 +1,31 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Database & Data Outputs
+data/*.db
+data/*.sqlite
+!data/.gitkeep
+output/*.employees.csv
+ouytput/*.telemetry_logs.jsonl
+
+# Environment Configs
+.env
+!.env.example
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS metadata
+.DS_Store
+output/
